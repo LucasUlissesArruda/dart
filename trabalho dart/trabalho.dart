@@ -17,7 +17,7 @@ void main() {
 
   print('\nIntrodução do predador: redução de 75% da população a cada mês.\n');
 
-  for (mes = 13; mes <= 18; mes++) {
+  for (mes = 13; mes <= 25; mes++) {
     int novosAdultos = jovens;
     adultos += novosAdultos;
 
@@ -37,4 +37,5 @@ void main() {
     total = jovens + adultos;
     print('Fim do Mês $mes: População de coelhos: $total, Jovens: $jovens, Adultos: $adultos');
   }
+
 }
